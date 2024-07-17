@@ -1,0 +1,62 @@
+name: supabase_login
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  supabase_flutter: ^2.5.7
+  google_sign_in: ^6.2.1
+  email_validator: ^3.0.0
+  flutter_riverpod: ^2.5.1
+  dio: ^5.5.0+1
+  go_router: ^14.2.1
+  image_picker: ^1.1.2
+  image: ^4.2.0
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  cron: ^0.6.1
+  uuid: ^4.4.2
+  url_launcher: ^6.3.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - .env
+
+  fonts:
+    - family: Anek Bangla
+      fonts:
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Anek_Bangla/static/AnekBangla-Thin.ttf
+          weight: 100
